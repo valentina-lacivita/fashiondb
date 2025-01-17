@@ -4,7 +4,13 @@ A lightweight app to keep track of the Fashion MNIST images.
 
 ## Usage
 
-First set up the project environment with `uv` and run the command below to kick off the app.
+First set up the project environment with `uv`, running the following command in the project root directory:
+
+```bash
+uv sync
+```
+
+and then kick off the app:
 
 ```bash
 uv run python main.py
